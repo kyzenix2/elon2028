@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Donate · Elon 2028</title>
+<meta name="description" content="Elon 2028 is an FEC-registered super PAC. The $ELON2028 contract address is TBA. The token does not fund the committee.">
+<meta name="theme-color" content="#C8102E">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@400;600&family=Public+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root { --navy:#0A1F44; --red:#C8102E; --paper:#F7F5F0; --ink:#0B0B0C; --white:#fff; --mist:#DCE3F0; --steel:#B9C4DA; --gray:#4A4A4F; --ash:#A9A9AE; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font-family: "Public Sans", system-ui, sans-serif; }
+  a { color: inherit; } a:hover { color: var(--red); }
+  .wrap { max-width: 1320px; margin: 0 auto; padding-left: 20px; padding-right: 20px; }
+  header { background: var(--navy); color: #fff; border-bottom: 1px solid rgba(255,255,255,.2); }
+  .bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; padding: 12px 0; }
+  .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: #fff; }
+  .brand:hover { color: #fff; }
+  .brand span { font-family: Anton, Impact, sans-serif; font-size: 24px; }
+  nav { display: flex; gap: 20px; overflow-x: auto; font-size: 12px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; white-space: nowrap; }
+  nav a { text-decoration: none; }
+  nav a.pill { background: #fff; color: var(--navy); padding: 9px 14px; }
+  nav a.pill:hover { background: var(--mist); color: var(--navy); }
+  .hero { background: var(--navy); color: #fff; padding: clamp(56px, 9vw, 120px) 0; }
+  .kicker { font-family: "IBM Plex Mono", monospace; font-size: 12px; letter-spacing: .16em; text-transform: uppercase; margin-bottom: 14px; }
+  h1 { font-family: Anton, Impact, sans-serif; font-weight: 400; font-size: clamp(56px, 9vw, 120px); line-height: .9; margin: 0 0 16px; text-transform: uppercase; }
+  .lede { font-size: 20px; line-height: 1.5; max-width: 640px; color: var(--mist); margin: 0 0 28px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 3px; background: #fff; border: 3px solid #fff; }
+  .card { background: var(--navy); padding: 22px; display: flex; flex-direction: column; gap: 10px; }
+  .card .label { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--steel); }
+  .card strong { font-family: "IBM Plex Mono", monospace; font-size: 18px; font-weight: 600; word-break: break-all; }
+  .card a, .card button { align-self: flex-start; background: #fff; color: var(--navy); border: 0; text-decoration: none; padding: 8px 12px; font-family: "IBM Plex Mono", monospace; font-size: 12px; font-weight: 600; letter-spacing: .12em; cursor: pointer; }
+  .note { background: var(--paper); color: var(--ink); padding: clamp(40px, 6vw, 72px) 0; }
+  .note p { font-size: 18px; line-height: 1.55; max-width: 720px; }
+  footer { background: var(--ink); color: #fff; }
+  .foot { padding: 40px 0; display: flex; flex-direction: column; gap: 16px; }
+  .paid { border: 2px solid #fff; padding: 14px 18px; font-weight: 800; align-self: flex-start; }
+  footer p { margin: 0; color: var(--ash); font-size: 12px; line-height: 1.6; max-width: 880px; }
+</style>
+</head>
+<body data-ca="TBA">
+<header>
+  <div class="wrap bar">
+    <a class="brand" href="index.html">
+      <img src="assets/elon2028-logo.png" alt="Elon 2028" width="38" height="38">
+      <span>ELON 2028</span>
+    </a>
+    <nav>
+      <a href="index.html#mission">Mission</a>
+      <a href="index.html#committee">Committee</a>
+      <a href="index.html#faq">FAQ</a>
+      <a class="pill" href="donate.html">Donate</a>
+    </nav>
+  </div>
+</header>
+<section class="hero">
+  <div class="wrap">
+    <div class="kicker">★ Contribute</div>
+    <h1>The paperwork is the committee.</h1>
+    <p class="lede">Elon 2028 is an independent-expenditure-only committee, FEC ID C00963512. Buying a token is not a contribution. The contract address is TBA.</p>
+    <div class="grid">
+      <div class="card">
+        <div class="label">Contract address · $ELON2028</div>
+        <strong data-ca-text>TBA</strong>
+        <button type="button" id="copy">COPY CA</button>
+      </div>
+      <div class="card">
+        <div class="label">Committee · FEC ID</div>
+        <strong>C00963512</strong>
+        <a href="https://www.fec.gov/data/committee/C00963512/?tab=about-committee" target="_blank" rel="noopener">FEC.GOV RECORD ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="note">
+  <div class="wrap">
+    <p>This page does not take contributions. The token does not fund the committee, and the committee does not back the token. Committee filings are on the public FEC record.</p>
+    <p>Paid for by Elon 2028. Not authorized by any candidate or candidate's committee.</p>
+  </div>
+</section>
+<footer>
+  <div class="wrap foot">
+    <div class="paid">Paid for by Elon 2028. Not authorized by any candidate or candidate's committee.</div>
+    <p>$ELON2028 is a memecoin. It is not affiliated with, endorsed by, or connected to Elon Musk. Nothing on this site is financial advice. © 2026 Elon 2028.</p>
+  </div>
+</footer>
+<script>
+const CA = document.body.dataset.ca || "TBA";
+document.querySelectorAll("[data-ca-text]").forEach((el) => { el.textContent = CA; });
+const btn = document.getElementById("copy");
+btn.addEventListener("click", async () => {
+  try { await navigator.clipboard.writeText(CA); } catch (e) {}
+  btn.textContent = "COPIED ✓";
+  setTimeout(() => { btn.textContent = "COPY CA"; }, 1300);
+});
+</script>
+</body>
+</html>
